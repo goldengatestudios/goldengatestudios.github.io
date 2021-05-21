@@ -574,10 +574,12 @@ pre code {
   }
 }
 .row {
-  display: flex;
-  flex-wrap: wrap;
-  margin-right: -15px;
-  margin-left: -15px;
+    display: flex;
+    flex-wrap: wrap;
+    left: 50%;
+    justify-content: center;
+    margin-right: -15px;
+    margin-left: -15px;
 }
 
 .no-gutters {
@@ -10007,7 +10009,7 @@ hr.light {
 }
 
 .page-section {
-  padding: 8rem 0;
+    padding: 8rem 0;
 }
 
 #mainNav {
@@ -10073,13 +10075,13 @@ hr.light {
 }
 
 header.masthead {
-  padding-top: 10rem;
-  padding-bottom: calc(10rem - 4.5rem);
-  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../assets/img/fondo.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-size: cover;
+    padding-top: 10rem;
+    padding-bottom: calc(10rem - 4.5rem);
+    background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../assets/img/fondo.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
 }
 header.masthead h1 {
   font-size: 2.25rem;
@@ -10143,3 +10145,51 @@ header.masthead h1 {
 .text-white-75 {
   color: rgba(255, 255, 255, 0.75);
 }
+.container1{
+    width: 100%;
+    min-height:100vh;
+    position:relative;
+}
+.container2 {
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+}
+.row1{
+    width: 80%;
+    min-height: 85vh;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.col1{
+    margin: 20px 0;
+    flex-basis: 50%;
+    min-width: 300px;
+    height: 100%;
+    position: relative;
+}
+.text-box1{
+    max-width: 400px;
+    margin-top: 100px;
+}
+.text-box1 h5{
+    color: #e7c82f;
+}
+.text-box1 h1{
+    font-size:50px;
+    font-weight: 100;
+    letter-spacing: 3px;
+    line-height: 65px;
+}
+.gallery-box {
+    max-width: 1000px;
+    position:relative;
+    margin: auto;
+}
+.gallery-box {
+    width: 100%;
+    border: 10px solid rgba(255,255,255,0.2);
+    box-sizing: border-box;
+}
+
