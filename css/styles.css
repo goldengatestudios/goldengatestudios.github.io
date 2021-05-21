@@ -197,8 +197,11 @@ figure {
 }
 
 img {
-  vertical-align: middle;
-  border-style: none;
+    vertical-align: middle;
+    border-style: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 svg {
@@ -10077,7 +10080,7 @@ hr.light {
 header.masthead {
     padding-top: 10rem;
     padding-bottom: calc(10rem - 4.5rem);
-    background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../assets/img/fondo.jpg");
+    background: linear-gradient(to bottom, rgb(66 92 85 / 82%) 0%, rgb(66 67 92 / 60%) 100%), url(../assets/img/fondo.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -10154,20 +10157,32 @@ header.masthead h1 {
     width: 100%;
     min-height: 100vh;
     position: relative;
+
 }
-.row1{
+.row1 {
     width: 80%;
     min-height: 85vh;
     margin: auto;
     display: flex;
     flex-wrap: wrap;
+    left: 50%;
+    justify-content: center;
 }
-.col1{
+.col1 {
     margin: 20px 0;
     flex-basis: 50%;
     min-width: 300px;
     height: 100%;
     position: relative;
+
+}
+.col2 {
+    margin: 20px 0;
+    flex-basis: 50%;
+    min-width: 300px;
+    height: 100%;
+    position: relative;
+    justify-content:center;
 }
 .text-box1{
     max-width: 400px;
@@ -10184,12 +10199,14 @@ header.masthead h1 {
 }
 .gallery-box {
     max-width: 1000px;
-    position:relative;
+    position: relative;
     margin: auto;
+
 }
 .gallery-box {
     width: 100%;
     border: 10px solid rgba(255,255,255,0.2);
     box-sizing: border-box;
+
 }
 
